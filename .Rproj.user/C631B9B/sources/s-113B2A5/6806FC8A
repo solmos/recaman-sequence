@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550696248642.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2571199755",
+    "id" : "6806FC8A",
+    "lastKnownWriteTime" : 1550697214,
+    "last_content_update" : 1550697214617,
+    "path" : "~/rstats/recaman-sequence/recaman-sequence.R",
+    "project_path" : "recaman-sequence.R",
+    "properties" : {
+        "cursorPosition" : "55,69",
+        "scrollLine" : "30",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
