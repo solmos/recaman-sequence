@@ -1,3 +1,49 @@
 ]0;/home/sergio/rstats/recaman-sequence]0;sergio@sergio-XPS13: ~/rstats/recaman-sequence[01;32msergio@sergio-XPS13[00m:[01;34m~/rstats/recaman-sequence[00m$ GIT[K[K[Kgit init
 Initialized empty Git repository in /home/sergio/rstats/recaman-sequence/.git/
 ]0;/home/sergio/rstats/recaman-sequence]0;sergio@sergio-XPS13: ~/rstats/recaman-sequence[01;32msergio@sergio-XPS13[00m:[01;34m~/rstats/recaman-sequence[00m$ [K]0;sergio@sergio-XPS13: ~/rstats/recaman-sequence[01;32msergio@sergio-XPS13[00m:[01;34m~/rstats/recaman-sequence[00m$ [K]0;sergio@sergio-XPS13: ~/rstats/recaman-sequence[01;32msergio@sergio-XPS13[00m:[01;34m~/rstats/recaman-sequence[00m$ git add .
+]0;/home/sergio/rstats/recaman-sequence]0;sergio@sergio-XPS13: ~/rstats/recaman-sequence[01;32msergio@sergio-XPS13[00m:[01;34m~/rstats/recaman-sequence[00m$ git commit -m "Initial commi t"
+[master (root-commit) 2446fe9] Initial commit
+ 29 files changed, 543 insertions(+)
+ create mode 100644 .Rproj.user/C631B9B/console06/A61769A2
+ create mode 100644 .Rproj.user/C631B9B/console06/A61769A2.env
+ create mode 100644 .Rproj.user/C631B9B/console06/INDEX001
+ create mode 100644 .Rproj.user/C631B9B/sources/prop/17159FE1
+ create mode 100644 .Rproj.user/C631B9B/sources/prop/1DCD4B5E
+ create mode 100644 .Rproj.user/C631B9B/sources/prop/7E531515
+ create mode 100644 .Rproj.user/C631B9B/sources/prop/D7D90418
+ create mode 100644 .Rproj.user/C631B9B/sources/prop/INDEX
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/256A1343-contents
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/3E87ABFF-contents
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/6806FC8A
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/6806FC8A-contents
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/7B44FAB8-contents
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/C5C257CD
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/C5C257CD-contents
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/E06CD206
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/E06CD206-contents
+ create mode 100644 .Rproj.user/C631B9B/sources/s-113B2A5/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/AC78C2AA-README/1/C631B9B113B2A5/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/AC78C2AA-README/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 README.Rmd
+ create mode 100644 README.md
+ create mode 100644 recaman-sequence.R
+ create mode 100644 recaman-sequence.Rproj
+ create mode 100644 recaman20.png
+ create mode 100644 recaman500.png
+ create mode 100644 recaman66.png
+]0;/home/sergio/rstats/recaman-sequence]0;sergio@sergio-XPS13: ~/rstats/recaman-sequence[01;32msergio@sergio-XPS13[00m:[01;34m~/rstats/recaman-sequence[00m$ git remote add origin https:///github.com/solmos/recaman-sequence
+]0;/home/sergio/rstats/recaman-sequence]0;sergio@sergio-XPS13: ~/rstats/recaman-sequence[01;32msergio@sergio-XPS13[00m:[01;34m~/rstats/recaman-sequence[00m$ git push -u origin master
+Username for 'https://github.com': solmos
+Password for 'https://solmos@github.com': 
+Counting objects: 37, done.
+Delta compression using up to 8 threads.
+Compressing objects:   3% (1/32)   Compressing objects:   6% (2/32)   Compressing objects:   9% (3/32)   Compressing objects:  12% (4/32)   Compressing objects:  15% (5/32)   Compressing objects:  18% (6/32)   Compressing objects:  21% (7/32)   Compressing objects:  25% (8/32)   Compressing objects:  28% (9/32)   Compressing objects:  31% (10/32)   Compressing objects:  34% (11/32)   Compressing objects:  37% (12/32)   Compressing objects:  40% (13/32)   Compressing objects:  43% (14/32)   Compressing objects:  46% (15/32)   Compressing objects:  50% (16/32)   Compressing objects:  53% (17/32)   Compressing objects:  56% (18/32)   Compressing objects:  59% (19/32)   Compressing objects:  62% (20/32)   Compressing objects:  65% (21/32)   Compressing objects:  68% (22/32)   Compressing objects:  71% (23/32)   Compressing objects:  75% (24/32)   Compressing objects:  78% (25/32)   Compressing objects:  81% (26/32)   Compressing objects:  84% (27/32)   Compressing objects:  87% (28/32)   Compressing objects:  90% (29/32)   Compressing objects:  93% (30/32)   Compressing objects:  96% (31/32)   Compressing objects: 100% (32/32)   Compressing objects: 100% (32/32), done.
+Writing objects:   2% (1/37)   Writing objects:   5% (2/37)   Writing objects:   8% (3/37)   Writing objects:  10% (4/37)   Writing objects:  13% (5/37)   Writing objects:  16% (6/37)   Writing objects:  18% (7/37)   Writing objects:  21% (8/37)   Writing objects:  24% (9/37)   Writing objects:  27% (10/37)   Writing objects:  29% (11/37)   Writing objects:  32% (12/37)   Writing objects:  35% (13/37)   Writing objects:  37% (14/37)   Writing objects:  40% (15/37)   Writing objects:  43% (16/37)   Writing objects:  45% (17/37)   Writing objects:  48% (18/37)   Writing objects:  54% (20/37)   Writing objects:  56% (21/37)   Writing objects:  59% (22/37)   Writing objects:  62% (23/37)   Writing objects:  64% (24/37)   Writing objects:  67% (25/37)   Writing objects:  70% (26/37)   Writing objects:  72% (27/37)   Writing objects:  75% (28/37)   Writing objects:  78% (29/37)   Writing objects:  81% (30/37)   Writing objects:  83% (31/37)   Writing objects:  86% (32/37)   Writing objects:  89% (33/37)   Writing objects:  91% (34/37)   Writing objects:  94% (35/37)   Writing objects:  97% (36/37)   Writing objects:  97% (36/37), 1.05 MiB | 214.00 KiB/s   Writing objects: 100% (37/37), 1.05 MiB | 214.00 KiB/s   Writing objects: 100% (37/37), 1.08 MiB | 220.00 KiB/s, done.
+Total 37 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), done.[K
+To https://github.com/solmos/recaman-sequence
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;/home/sergio/rstats/recaman-sequence]0;sergio@sergio-XPS13: ~/rstats/recaman-sequence[01;32msergio@sergio-XPS13[00m:[01;34m~/rstats/recaman-sequence[00m$ 
